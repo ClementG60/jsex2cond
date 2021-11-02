@@ -1,6 +1,6 @@
-let number = prompt("Veuillez entrer un nombre.")
-if (parseInt(number) % 2 == 0) {
-    alert("Le nombre est pair.")
+let age = prompt("Veuillez entrer votre age.")
+if (age >= 18) {
+    alert("Vous êtes majeur.")
 } else {
-    alert("Le nombre est impair.")
+    alert("Vous êtes mineur.")
 }
